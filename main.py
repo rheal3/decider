@@ -12,7 +12,7 @@ def add_option(options_list:list):
 options = []
 
 os.system("clear")
-print("Welcome Human.")
+print(f"Welcome Human. I am {colored('The Decider', 'red')}. \nEnter your options and I will decide.")
 
 option = add_option(options)
 
